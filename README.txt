@@ -1,6 +1,6 @@
 = Polarion Automatic Upload Tool =
 
-This is tool is based on pylarion and xunit importer, the following operations are supported:
+This tool is based on pylarion and xunit importer, the following operations are supported:
 
 1. Generate Job Report on Google Sheet
 1. Create test cases
