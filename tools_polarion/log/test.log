@@ -1,0 +1,332 @@
+2017-03-01 11:08:07,181 - worksheet - INFO - authorize
+2017-03-01 11:08:07,181 - worksheet - INFO - open_doc
+2017-03-01 11:08:36,419 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 11:08:36 2017
+2017-03-01 11:08:40,835 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 11:08:40,837 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-01 11:08:43,423 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-pf-remote
+2017-03-01 11:09:07,320 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-pf-remote-jumbo
+2017-03-01 11:09:21,321 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-pf-vlan-remote
+2017-03-01 11:09:35,040 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vf-remote
+2017-03-01 11:09:54,159 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vf-remote-jumbo
+2017-03-01 11:10:10,717 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vf-vlan-remote
+2017-03-01 11:10:26,297 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-remote
+2017-03-01 11:10:39,004 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-remote-jumbo
+2017-03-01 11:10:53,309 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vlan-remote
+2017-03-01 11:11:08,517 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vlan-remote-jumbo
+2017-03-01 11:11:23,128 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vlan-remote-1
+2017-03-01 11:11:38,078 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-pf-vmvf
+2017-03-01 11:11:53,145 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-pf-vmvf-vlan
+2017-03-01 11:12:09,138 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vmvf
+2017-03-01 11:12:22,496 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vmvf-vlan
+2017-03-01 11:12:36,318 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf1-vmvf2-remote
+2017-03-01 11:12:50,650 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf1-vmvf2-vlan-remote
+2017-03-01 11:13:03,922 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-bond-remote
+2017-03-01 11:13:18,316 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bz1212361
+2017-03-01 11:13:31,424 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bz1145063
+2017-03-01 11:13:46,194 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bz1205903
+2017-03-01 11:14:01,620 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-trusted-vf-override-macaddr-via-bonding
+2017-03-01 11:14:16,564 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-trusted-vf-ipv6addr
+2017-03-01 11:14:31,746 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac0
+2017-03-01 11:14:46,731 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac0-vlan
+2017-03-01 11:15:00,770 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac1
+2017-03-01 11:15:16,540 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac1-vlan
+2017-03-01 11:15:32,958 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac2
+2017-03-01 11:15:47,306 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bond-failovermac2-vlan
+2017-03-01 11:16:01,822 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-bz1392128
+2017-03-01 11:16:16,710 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-max-vfs-attaching-to-different-vms
+2017-03-01 11:16:30,750 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-trusted-vf-allmutlicast
+2017-03-01 11:16:45,778 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-max-vfs
+2017-03-01 11:17:00,299 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: sriov-test-vmvf-vlan-offload-remote
+2017-03-01 11:17:19,539 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-vmvf-virtio
+2017-03-01 11:17:34,005 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-vmvf-vlan-virtio
+2017-03-01 11:17:48,984 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-remote-virtio
+2017-03-01 11:18:02,388 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-passthru-vmvf-remote-virtio
+2017-03-01 11:18:16,593 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-passthru-vmvf-vlan-remote-virtio
+2017-03-01 11:18:30,426 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-vmvf-e1000
+2017-03-01 11:18:42,635 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-vmvf-vlan-e1000
+2017-03-01 11:18:58,252 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-bridge-vmvf-remote-e1000
+2017-03-01 11:19:13,498 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-passthru-vmvf-remote-e1000
+2017-03-01 11:19:28,402 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: macvtap-test-passthru-vmvf-vlan-remote-e1000
+2017-03-01 11:19:40,797 - testcase - WARNING - Can't find right case-NAME: stress/netperf, TOPO: 
+2017-03-01 11:19:54,376 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: broadcast-test
+2017-03-01 11:20:11,794 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: dev-name-test
+2017-03-01 11:20:25,079 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: dev-alias-test
+2017-03-01 11:20:39,392 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: set-ip-ip
+2017-03-01 11:20:53,169 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: set-ip-ifconfig
+2017-03-01 11:21:11,321 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: set-mac
+2017-03-01 11:21:26,484 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: change-mtu-ip
+2017-03-01 11:21:42,165 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: change-mtu-ifconfig
+2017-03-01 11:21:58,146 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: multicast-test
+2017-03-01 11:22:13,100 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: allmulti-test
+2017-03-01 11:22:26,378 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: para-sanity-test
+2017-03-01 11:22:40,756 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: promisc-test
+2017-03-01 11:22:57,190 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: selftest
+2017-03-01 11:23:11,996 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/multi_vlan_traffic, TOPO: 
+2017-03-01 11:23:28,371 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/vlan_and_bond_over_nic, TOPO: 
+2017-03-01 11:23:40,924 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/vlan_offload, TOPO: 
+2017-03-01 11:23:55,452 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/reorder_hdr, TOPO: 
+2017-03-01 11:24:08,134 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/vlan_and_bridge_over_nic, TOPO: 
+2017-03-01 11:24:22,382 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/vlan_fragment_test, TOPO: 
+2017-03-01 11:24:38,571 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/checksum_with_scp, TOPO: 
+2017-03-01 11:24:51,522 - testcase - WARNING - Can't find right case-NAME: vlan/vxlan/vxlan_in_br, TOPO: 
+2017-03-01 11:25:05,695 - testcase - WARNING - Can't find right case-NAME: bridge/veth/veth_perf, TOPO: 
+2017-03-01 11:25:20,473 - testcase - WARNING - Can't find right case-NAME: bridge/bridge_fdb, TOPO: 
+2017-03-01 11:25:33,803 - testcase - WARNING - Can't find right case-NAME: bridge/setageing_zero, TOPO: 
+2017-03-01 11:25:47,292 - testcase - WARNING - Can't find right case-NAME: bridge/bridge_over_bonding, TOPO: 
+2017-03-01 11:26:02,306 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: /
+2017-03-01 11:26:18,526 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic
+2017-03-01 11:26:33,259 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_vlan
+2017-03-01 11:26:49,827 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_bridge
+2017-03-01 11:27:03,562 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_vlan_bridge
+2017-03-01 11:27:21,230 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_bridge_vlan
+2017-03-01 11:27:36,466 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_vlan_mtu9000
+2017-03-01 11:27:50,758 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_bridge_mtu9000
+2017-03-01 11:28:04,829 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_vlan_bridge_mtu9000
+2017-03-01 11:28:21,193 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: nic_bridge_vlan_mtu9000
+2017-03-01 11:28:36,121 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond
+2017-03-01 11:28:50,471 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_vlan
+2017-03-01 11:29:08,363 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_vlan_bridge
+2017-03-01 11:29:23,799 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_bridge_vlan
+2017-03-01 11:29:39,779 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_vlan_mtu9000
+2017-03-01 11:29:53,423 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_vlan_bridge_mtu9000
+2017-03-01 11:30:08,879 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: bond_bridge_vlan_mtu9000
+2017-03-01 11:30:22,994 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-nic
+2017-03-01 11:30:37,291 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan
+2017-03-01 11:30:52,133 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vxlan
+2017-03-01 11:31:07,656 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vxlan1
+2017-03-01 11:31:23,679 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vxlan-flow
+2017-03-01 11:31:37,728 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-vxlan
+2017-03-01 11:31:54,676 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-vxlan1
+2017-03-01 11:32:09,418 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-gre
+2017-03-01 11:32:23,975 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-gre1
+2017-03-01 11:32:39,237 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-gre
+2017-03-01 11:32:55,946 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-gre1
+2017-03-01 11:33:10,817 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-nic
+2017-03-01 11:33:26,012 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vlan
+2017-03-01 11:33:40,590 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-multiple-vlans
+2017-03-01 11:33:57,945 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vxlan
+2017-03-01 11:34:18,670 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vxlan1
+2017-03-01 11:34:31,956 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vxlan-flow
+2017-03-01 11:34:46,010 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vlan-vxlan
+2017-03-01 11:35:01,850 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vlan-vxlan1
+2017-03-01 11:35:15,913 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-gre
+2017-03-01 11:35:32,176 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-gre1
+2017-03-01 11:35:46,039 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vlan-gre
+2017-03-01 11:36:03,928 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vm-vlan-gre1
+2017-03-01 11:36:21,570 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-active-backup
+2017-03-01 11:36:37,319 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-set-active-slave
+2017-03-01 11:37:01,953 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-lacp-active
+2017-03-01 11:37:21,417 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-lacp-passive
+2017-03-01 11:37:35,120 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-balance-slb
+2017-03-01 11:37:53,802 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-bond-balance-tcp
+2017-03-01 11:38:07,183 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-chained-with-veth
+2017-03-01 11:38:25,860 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-chained-with-patchport
+2017-03-01 11:38:40,860 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-ns-ovsbr-nic
+2017-03-01 11:38:57,649 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-ns1-ovsbr-ns2
+2017-03-01 11:39:13,580 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-ns-veth-ovsbr-nic
+2017-03-01 11:39:31,996 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-mode-access
+2017-03-01 11:39:50,788 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: ovs-test-vlan-mode-trunk
+2017-03-01 11:40:08,345 - testcase - WARNING - Can't find right case-NAME: nic/functions/packet_statistics, TOPO: 
+2017-03-01 11:40:23,082 - testcase - WARNING - Can't find right case-NAME: nic/functions/link_check, TOPO: 
+2017-03-01 11:40:38,797 - testcase - WARNING - Can't find right case-NAME: nic/functions/ring, TOPO: 
+2017-03-01 11:40:55,734 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: checksum-rx
+2017-03-01 11:41:18,104 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: checksum-tx
+2017-03-01 11:41:36,871 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: segmentation-tso
+2017-03-01 11:41:53,915 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: segmentation-gso
+2017-03-01 11:42:09,182 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: segmentation-gro
+2017-03-01 11:42:25,313 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: segmentation-lro
+2017-03-01 11:42:38,862 - testcase - WARNING - Can't find right case-NAME: nic/functions/offload, TOPO: segmentation-ufo
+2017-03-01 11:42:53,438 - testcase - WARNING - Can't find right case-NAME: nic/functions/multiqueue, TOPO: 
+2017-03-01 11:43:07,253 - testcase - WARNING - Can't find right case-NAME: nic/functions/abnormal, TOPO: bad-ip-bz1293754
+2017-03-01 11:43:23,052 - testcase - WARNING - Can't find right case-NAME: nic/functions/abnormal, TOPO: small-packet-bz790673
+2017-03-01 11:43:38,239 - testcase - WARNING - Can't find right case-NAME: nic/functions/stress, TOPO: 
+2017-03-01 11:43:56,702 - testcase - WARNING - Can't find right case-NAME: nic/functions/scaling, TOPO: 
+2017-03-01 11:44:12,762 - testcase - WARNING - Can't find right case-NAME: nic/functions/abnormal, TOPO: bnx2x-parity
+2017-03-01 11:44:27,850 - testcase - WARNING - Can't find right case-NAME: nic/functions/coalesce, TOPO: 
+2017-03-01 11:44:43,320 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/vlan_add_rem, TOPO: 
+2017-03-01 11:44:57,304 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/change_vlan_mac, TOPO: 
+2017-03-01 11:45:10,478 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/check_vlan_state, TOPO: 
+2017-03-01 11:45:24,556 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/vlan_priority, TOPO: 
+2017-03-01 11:45:42,453 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/reorder_hdr_toggle, TOPO: 
+2017-03-01 11:45:56,688 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/offload/gro, TOPO: 
+2017-03-01 11:46:10,408 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/offload/lro, TOPO: 
+2017-03-01 11:46:23,081 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/offload/pause, TOPO: 
+2017-03-01 11:46:37,721 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/offload/ring, TOPO: 
+2017-03-01 11:46:51,027 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/offload/tso, TOPO: 
+2017-03-01 11:47:06,574 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/promisc, TOPO: 
+2017-03-01 11:47:21,536 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/config_file_test, TOPO: 
+2017-03-01 11:47:35,675 - testcase - WARNING - Can't find right case-NAME: vlan/tier2/vlan_tcpdump, TOPO: 
+2017-03-01 11:47:55,303 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/module_load_unload, TOPO: 
+2017-03-01 11:48:08,411 - testcase - WARNING - Can't find right case-NAME: bridge/sanity_check, TOPO: 
+2017-03-01 11:48:23,322 - testcase - WARNING - Can't find right case-NAME: bridge/setup_bridge, TOPO: 
+2017-03-01 11:48:38,014 - testcase - WARNING - Can't find right case-NAME: bridge/stp_test, TOPO: 
+2017-03-01 11:48:59,580 - testcase - WARNING - Can't find right case-NAME: bridge/veth/veth_ping, TOPO: 
+2017-03-01 11:49:12,838 - testcase - WARNING - Can't find right case-NAME: bridge/veth/veth_pass_vlan, TOPO: 
+2017-03-01 11:49:28,261 - testcase - WARNING - Can't find right case-NAME: bonding/failover, TOPO: 
+2017-03-01 11:49:49,962 - testcase - WARNING - Can't find right case-NAME: nic/functions/pause, TOPO: 
+2017-03-01 11:50:05,588 - testcase - WARNING - Can't find right case-NAME: nic/functions/hashkey, TOPO: 
+2017-03-01 11:50:18,954 - testcase - WARNING - Can't find right case-NAME: nic/functions/nic_driver_load, TOPO: 
+2017-03-01 11:50:33,506 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: /
+2017-03-01 11:50:52,064 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: Setup/dmesg
+2017-03-01 11:51:08,127 - testcase - WARNING - Can't find right case-NAME: vnic/sriov, TOPO: /LOCALWATCHDOG
+2017-03-01 11:51:20,076 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-01 11:51:20,081 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-01 11:51:20,085 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-01 11:51:20,457 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-01 11:55:18,794 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 11:55:18 2017
+2017-03-01 13:21:59,599 - post_from_directory.py - INFO - Start time: Wed Mar  1 13:21:59 2017
+2017-03-01 13:21:59,599 - post_from_directory.py - INFO - Post ./testruns
+2017-03-01 13:22:36,946 - post_from_directory.py - INFO - Start time: Wed Mar  1 13:22:36 2017
+2017-03-01 13:22:36,946 - post_from_directory.py - INFO - Post ./testruns
+2017-03-01 13:26:33,656 - post_from_directory.py - INFO - Ending time: Wed Mar  1 13:26:33 2017
+2017-03-01 16:07:16,198 - worksheet - INFO - authorize
+2017-03-01 16:07:16,198 - worksheet - INFO - open_doc
+2017-03-01 16:07:37,081 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:07:37 2017
+2017-03-01 16:07:41,915 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:07:41,917 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-01 16:08:05,885 - testcase - WARNING - Can't find right case-NAME: bridge/multicast/mdb_check, TOPO: 
+2017-03-01 16:08:33,050 - testcase - WARNING - Can't find right case-NAME: team/failover, TOPO: 
+2017-03-01 16:09:27,488 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team
+2017-03-01 16:09:41,388 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan
+2017-03-01 16:09:57,768 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_bridge
+2017-03-01 16:10:12,986 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_bridge_vlan
+2017-03-01 16:10:26,202 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_mtu9000
+2017-03-01 16:10:42,380 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_bridge_mtu9000
+2017-03-01 16:10:56,696 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_bridge_vlan_mtu9000
+2017-03-01 16:19:51,468 - worksheet - INFO - authorize
+2017-03-01 16:19:51,468 - worksheet - INFO - open_doc
+2017-03-01 16:20:15,428 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:20:15 2017
+2017-03-01 16:20:20,368 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:20:20,457 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:20:20 2017
+2017-03-01 16:28:33,760 - worksheet - INFO - authorize
+2017-03-01 16:28:33,760 - worksheet - INFO - open_doc
+2017-03-01 16:28:34,664 - worksheet - ERROR - gspread.exceptions.SpreadsheetNotFound
+2017-03-01 16:29:44,676 - worksheet - INFO - authorize
+2017-03-01 16:29:44,677 - worksheet - INFO - open_doc
+2017-03-01 16:30:09,340 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:30:09 2017
+2017-03-01 16:30:13,760 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:30:13,895 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:30:13 2017
+2017-03-01 16:32:46,455 - worksheet - INFO - authorize
+2017-03-01 16:32:46,455 - worksheet - INFO - open_doc
+2017-03-01 16:33:14,484 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:33:14 2017
+2017-03-01 16:33:19,420 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:33:19,564 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:33:19 2017
+2017-03-01 16:35:12,455 - worksheet - INFO - authorize
+2017-03-01 16:35:12,456 - worksheet - INFO - open_doc
+2017-03-01 16:35:31,147 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:35:31 2017
+2017-03-01 16:35:35,519 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:35:35,601 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:35:35 2017
+2017-03-01 16:37:30,113 - worksheet - INFO - authorize
+2017-03-01 16:37:30,113 - worksheet - INFO - open_doc
+2017-03-01 16:37:59,740 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:37:59 2017
+2017-03-01 16:38:04,258 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:38:04,261 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:38:04 2017
+2017-03-01 16:38:41,739 - worksheet - INFO - authorize
+2017-03-01 16:38:41,739 - worksheet - INFO - open_doc
+2017-03-01 16:39:01,086 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:39:01 2017
+2017-03-01 16:39:05,700 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:39:05,704 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 16:39:05 2017
+2017-03-01 16:55:07,255 - worksheet - INFO - authorize
+2017-03-01 16:55:07,255 - worksheet - INFO - open_doc
+2017-03-01 16:55:34,223 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 16:55:34 2017
+2017-03-01 16:55:38,740 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 16:55:38,742 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-01 16:55:54,776 - testcase - WARNING - Can't find right case-NAME: vlan/tier1/promisc, TOPO: 
+2017-03-01 16:56:26,981 - testcase - WARNING - Can't find right case-NAME: bridge/multicast/mdb_check, TOPO: 
+2017-03-01 16:56:41,826 - testcase - WARNING - Can't find right case-NAME: team/failover, TOPO: 
+2017-03-01 16:57:34,588 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team
+2017-03-01 16:57:50,150 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan
+2017-03-01 16:58:04,568 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_bridge
+2017-03-01 16:58:22,488 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_bridge_vlan
+2017-03-01 16:58:37,986 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_mtu9000
+2017-03-01 16:58:52,550 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_vlan_bridge_mtu9000
+2017-03-01 16:59:06,544 - testcase - WARNING - Can't find right case-NAME: netperf/regular_netperf, TOPO: team_bridge_vlan_mtu9000
+2017-03-01 17:02:23,902 - testcase - WARNING - Can't find right case-NAME: bridge/bridge_over_vlan, TOPO: 
+2017-03-01 17:03:58,474 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-01 17:03:58,478 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-01 17:03:58,483 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-01 17:03:58,809 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-01 17:08:08,057 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 17:08:08 2017
+2017-03-01 17:16:42,275 - worksheet - INFO - authorize
+2017-03-01 17:16:42,276 - worksheet - INFO - open_doc
+2017-03-01 17:16:49,750 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 17:16:49 2017
+2017-03-01 17:16:54,304 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 17:16:54,305 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-01 17:22:13,372 - testcase - WARNING - Can't find right case-NAME: bridge/veth/veth_as_filter, TOPO: 
+2017-03-01 17:22:37,012 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-01 17:22:37,014 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-01 17:22:37,018 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-01 17:22:37,108 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-01 17:24:13,701 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 17:24:13 2017
+2017-03-01 17:24:47,981 - worksheet - INFO - authorize
+2017-03-01 17:24:47,981 - worksheet - INFO - open_doc
+2017-03-01 17:25:15,998 - xunit_to_polarion.py - INFO - Start time: Wed Mar  1 17:25:15 2017
+2017-03-01 17:25:20,142 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-01 17:25:20,143 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-01 17:30:50,102 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-01 17:30:50,104 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-01 17:30:50,106 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-01 17:30:50,196 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-01 17:32:07,680 - xunit_to_polarion.py - INFO - Ending time: Wed Mar  1 17:32:07 2017
+2017-03-02 10:56:02,890 - worksheet - INFO - authorize
+2017-03-02 10:56:02,890 - worksheet - INFO - open_doc
+2017-03-02 10:56:23,832 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 10:56:23 2017
+2017-03-02 10:56:48,560 - worksheet - INFO - authorize
+2017-03-02 10:56:48,561 - worksheet - INFO - open_doc
+2017-03-02 10:58:02,987 - worksheet - INFO - authorize
+2017-03-02 10:58:02,987 - worksheet - INFO - open_doc
+2017-03-02 10:58:09,373 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 10:58:09 2017
+2017-03-02 10:58:19,116 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-02 10:58:19,117 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-02 15:12:32,953 - worksheet - INFO - authorize
+2017-03-02 15:12:32,953 - worksheet - INFO - open_doc
+2017-03-02 15:12:53,378 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 15:12:53 2017
+2017-03-02 15:12:58,074 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-02 15:12:58,075 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-02 15:18:39,437 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-02 15:18:39,439 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-02 15:18:39,447 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-02 15:18:39,532 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-02 15:20:10,803 - xunit_to_polarion.py - INFO - Ending time: Thu Mar  2 15:20:10 2017
+2017-03-02 15:21:13,458 - worksheet - INFO - authorize
+2017-03-02 15:21:13,459 - worksheet - INFO - open_doc
+2017-03-02 15:21:31,686 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 15:21:31 2017
+2017-03-02 15:21:35,915 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-02 15:21:35,917 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-02 15:27:24,139 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: /
+2017-03-02 15:27:56,077 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-02 15:27:56,082 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-02 15:27:56,084 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-02 15:27:56,450 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-02 15:32:18,056 - xunit_to_polarion.py - INFO - Ending time: Thu Mar  2 15:32:18 2017
+2017-03-02 15:33:08,821 - worksheet - INFO - authorize
+2017-03-02 15:33:08,821 - worksheet - INFO - open_doc
+2017-03-02 15:33:48,078 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 15:33:48 2017
+2017-03-02 15:33:51,997 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-02 15:33:52,002 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-02 15:39:37,082 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-02 15:39:37,087 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-02 15:39:37,092 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-02 15:39:37,420 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-02 15:43:51,145 - xunit_to_polarion.py - INFO - Ending time: Thu Mar  2 15:43:51 2017
+2017-03-02 15:46:20,685 - worksheet - INFO - authorize
+2017-03-02 15:46:20,685 - worksheet - INFO - open_doc
+2017-03-02 15:46:28,307 - xunit_to_polarion.py - INFO - Start time: Thu Mar  2 15:46:28 2017
+2017-03-02 15:46:33,588 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-02 15:46:33,589 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-02 15:51:46,162 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-02 15:51:46,164 - xunit_to_polarion.py - INFO - rm -rf ./testruns
+2017-03-02 15:51:46,169 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-02 15:51:46,252 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-02 15:53:05,598 - xunit_to_polarion.py - INFO - Ending time: Thu Mar  2 15:53:05 2017
+2017-03-10 18:03:35,041 - worksheet - INFO - authorize
+2017-03-10 18:03:35,069 - worksheet - INFO - open_doc
+2017-03-10 18:04:05,587 - xunit_to_polarion.py - INFO - Start time: Fri Mar 10 18:04:05 2017
+2017-03-10 18:08:07,702 - worksheet - INFO - authorize
+2017-03-10 18:08:07,702 - worksheet - INFO - open_doc
+2017-03-10 18:08:22,849 - xunit_to_polarion.py - INFO - Start time: Fri Mar 10 18:08:22 2017
+2017-03-10 18:09:33,192 - worksheet - INFO - authorize
+2017-03-10 18:09:33,193 - worksheet - INFO - open_doc
+2017-03-10 18:10:03,874 - xunit_to_polarion.py - INFO - Start time: Fri Mar 10 18:10:03 2017
+2017-03-10 18:10:11,051 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-10 18:10:11,052 - xunit_to_polarion.py - INFO - get_cases_ids
