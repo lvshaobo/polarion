@@ -17,7 +17,7 @@ from log import Logger
 from color import red, blue, green
 from worksheet import WorkSheet
 from testcase import get_cases_ids, get_cases_results, get_cases_comments, cases_filter
-from testrun import gen_runs_ids_for_cases, post_runs
+from testrun import gen_runs_ids_for_cases, post_runs, post_runs_filter_by_role
 
 from pylarion.document import Document
 from pylarion.exceptions import PylarionLibException
@@ -27,6 +27,8 @@ def clear_path(path_name):
     path_name = path_name.lstrip("./").rstrip("/")
     if path_name in os.listdir("."):
         shutil.rmtree(path_name)
+        os.mkdir(path_name)
+    else:
         os.mkdir(path_name)
 
 
@@ -113,6 +115,7 @@ def main(argv):
                 doc = arg
             elif opt in ("-s", "--sheet"):
                 sheet = arg
+                run_xml_path = './%s' % sheet
             elif opt in ("-f", "--file"):
                 csv_file = arg
             elif opt in ("-p", "--project"):
@@ -164,17 +167,18 @@ def main(argv):
         cases_results = get_cases_results(cases)
         cases_comments = get_cases_comments(cases)
 
-        logger.info('rm -rf ./testruns')
-        print(blue('rm -rf ./testruns'))
+        logger.info('rm -rf %s' % run_xml_path)
+        print(blue('rm -rf %s' % run_xml_path))
         clear_path(run_xml_path)
 
-        logger.info('Updating ./testruns')
-        print(blue('Updating ./testruns'))
+        logger.info('Updating %s' % run_xml_path)
+        print(blue('Updating %s' % run_xml_path))
         runs_ids = gen_runs_ids_for_cases(cases, run_id_prefix)
-        post_runs(runs_ids, cases_ids, cases_results, cases_comments, run_xml_path, project, user, run_plannedin, dryrun)
+        # post_runs(runs_ids, cases_ids, cases_results, cases_comments, run_xml_path, project, user, run_plannedin, dryrun)
+        post_runs_filter_by_role(runs_ids, cases_ids, cases_results, cases_comments, run_xml_path, project, user, run_plannedin, dryrun)
 
-        logger.info('Post ./testruns')
-        print(blue('Post ./testruns'))
+        logger.info('Post %s' % run_xml_path)
+        print(blue('Post %s' % run_xml_path))
         post(user, password, run_xml_path)
         
         logger.info('Ending time: %s' % time.ctime())

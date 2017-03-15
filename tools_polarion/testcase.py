@@ -117,6 +117,10 @@ def get_cases_ids(cases, case_title_prefix, document, project, dryrun):
         cases_ids[i] = dic_[x_tuple]
     return cases_ids
 
+def get_cases_roles(cases):
+    _role = cases[0].index("ROLE")
+    return list(map(lambda x: x[_role], cases[1:]))
+
 
 def get_cases_results(cases):
     # Beaker result or final result is pass, it is pass.

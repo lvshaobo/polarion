@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <testsuites>
+        <properties>
+            <property name="polarion-project-id" value="RHEL6"/>
+            <property name="polarion-user-id" value="shalv"/>
+            <property name="polarion-custom-assignee" value="shalv"/>
+            <property name="polarion-custom-plannedin" value="6_9_RC"/>
+            <property name="polarion-include-skipped" value="true"/>
+            <property name="polarion-dry-run" value="False"/>
+            <property name="polarion-testrun-id" value="Test_KN-RUN-RHEL-69-RC_MACVTAP_cxgb4_T422"/>
+            <property name="polarion-testrun-type-id" value="featureverification"/>
+        </properties>
+        <testsuite errors="0" failures="0" name="pytest" skipped="0" tests="1" time="0.006">
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47369"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <failure message="failure" type="failure"/>
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47378"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47376"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47377"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47374"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47375"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47372"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <failure message="failure" type="failure"/>
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47373"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47370"/>
+                </properties>
+            </testcase>
+            <testcase classname="TestClass" name="test_name" time="1">
+                <properties>
+                    <property name="polarion-testcase-id" value="RHEL6-47371"/>
+                </properties>
+            </testcase>
+        </testsuite>
+    </testsuites>
+    

@@ -104,6 +104,38 @@ def gen_runs_ids_for_cases(cases, prefix):
     return list(runs_ids)
 
 
+def filter_by_role(run_ids, case_ids, case_results, case_comments):
+    run_ids_dict = {}
+
+    for run_id, case_id, case_result, case_comment in zip(run_ids, case_ids, case_results, case_comments):
+        if run_id not in run_ids_dict:
+            run_ids_dict[run_id] = {case_id: [case_result, case_comment]}
+        elif run_id in run_ids_dict and case_id not in run_ids_dict[run_id]:
+            run_ids_dict[run_id][case_id] = [case_result, case_comment]
+        elif run_id in run_ids_dict and case_id in run_ids_dict[run_id] and case_result is "failed":
+            run_ids_dict[run_id][case_id] = ["failed", case_comment]
+        else:
+            pass
+    return run_ids_dict
+
+
+def post_runs_filter_by_role(run_ids, case_ids, case_results, case_comments, run_path, project, login, run_plannedin, dryrun):
+    """post testrun depending on role"""
+    run_case_dict = filter_by_role(run_ids, case_ids, case_results, case_comments)
+    for (run_id, case_dict) in run_case_dict.items():
+        with open("{}/{}.xml".format(run_path, run_id), 'a') as tr:
+            tr.write(xml_testrun_init.format(
+                    project, login, login, run_plannedin,
+                    "true", dryrun, run_id, "featureverification"
+                ))
+            for case_id, [case_result, case_comment] in case_dict.items():
+                if case_result is "failed":
+                    tr.write(xml_testcase_failed.format(case_id))
+                else:
+                    tr.write(xml_testcase_passed.format(case_id))
+            tr.write(xml_testrun_end)
+
+
 def post_runs(run_ids, case_ids, case_results, case_comments, run_path, project, login, run_plannedin, dryrun):
     """post TestRun to Polarion"""
     for index, (case_id, run_id, result, comment) in enumerate(zip(case_ids, run_ids, case_results, case_comments)):

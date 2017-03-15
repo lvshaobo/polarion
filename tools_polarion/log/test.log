@@ -330,3 +330,45 @@
 2017-03-10 18:10:03,874 - xunit_to_polarion.py - INFO - Start time: Fri Mar 10 18:10:03 2017
 2017-03-10 18:10:11,051 - xunit_to_polarion.py - INFO - filter_useless_cases
 2017-03-10 18:10:11,052 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-14 11:49:32,079 - worksheet - INFO - authorize
+2017-03-14 11:49:32,079 - worksheet - INFO - open_doc
+2017-03-14 11:51:03,716 - xunit_to_polarion.py - INFO - Start time: Tue Mar 14 11:51:03 2017
+2017-03-14 11:51:20,925 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-14 11:51:20,931 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-14 11:55:59,486 - testcase - WARNING - Can't find right case-NAME: openvswitch/topo, TOPO: /LOCALWATCHDOG
+2017-03-14 11:58:22,923 - testcase - WARNING - Can't find right case-NAME: nic/sanity_check, TOPO: /LOCALWATCHDOG
+2017-03-14 11:58:36,821 - testcase - WARNING - Can't find right case-NAME: vnic/macvtap, TOPO: /LOCALWATCHDOG
+2017-03-14 11:58:50,619 - testcase - WARNING - Can't find right case-NAME: nic/functions/wol, TOPO: 
+2017-03-14 12:00:43,931 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-14 12:00:43,948 - xunit_to_polarion.py - INFO - rm -rf ./RC
+2017-03-14 12:00:43,948 - xunit_to_polarion.py - INFO - Updating ./testruns
+2017-03-14 12:00:45,949 - xunit_to_polarion.py - INFO - Post ./testruns
+2017-03-14 12:07:50,356 - xunit_to_polarion.py - INFO - Ending time: Tue Mar 14 12:07:50 2017
+2017-03-14 15:46:00,532 - worksheet - INFO - authorize
+2017-03-14 15:46:00,533 - worksheet - INFO - open_doc
+2017-03-14 15:47:10,294 - xunit_to_polarion.py - INFO - Start time: Tue Mar 14 15:47:10 2017
+2017-03-14 15:47:14,962 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-14 15:47:14,967 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-14 15:53:22,081 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-14 15:53:22,098 - xunit_to_polarion.py - INFO - rm -rf ./RC
+2017-03-14 15:53:22,107 - xunit_to_polarion.py - INFO - Updating ./RC
+2017-03-14 15:55:22,125 - worksheet - INFO - authorize
+2017-03-14 15:55:22,126 - worksheet - INFO - open_doc
+2017-03-14 15:56:53,582 - xunit_to_polarion.py - INFO - Start time: Tue Mar 14 15:56:53 2017
+2017-03-14 15:56:58,158 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-14 15:56:58,163 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-14 16:02:49,193 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-14 16:02:49,211 - xunit_to_polarion.py - INFO - rm -rf ./RC
+2017-03-14 16:02:49,212 - xunit_to_polarion.py - INFO - Updating ./RC
+2017-03-14 16:02:49,514 - xunit_to_polarion.py - INFO - Post ./RC
+2017-03-14 16:09:48,517 - xunit_to_polarion.py - INFO - Ending time: Tue Mar 14 16:09:48 2017
+2017-03-14 16:43:59,980 - worksheet - INFO - authorize
+2017-03-14 16:43:59,980 - worksheet - INFO - open_doc
+2017-03-14 16:45:07,153 - xunit_to_polarion.py - INFO - Start time: Tue Mar 14 16:45:07 2017
+2017-03-14 16:45:11,751 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-14 16:45:11,757 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-14 16:50:56,851 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-14 16:50:56,867 - xunit_to_polarion.py - INFO - rm -rf ./RC
+2017-03-14 16:50:56,875 - xunit_to_polarion.py - INFO - Updating ./RC
+2017-03-14 16:50:57,180 - xunit_to_polarion.py - INFO - Post ./RC
+2017-03-14 16:58:07,799 - xunit_to_polarion.py - INFO - Ending time: Tue Mar 14 16:58:07 2017
