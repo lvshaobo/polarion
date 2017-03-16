@@ -143,7 +143,6 @@
                 </properties>
             </testcase>
             <testcase classname="TestClass" name="test_name" time="1">
-                <failure message="failure" type="failure"/>
                 <properties>
                     <property name="polarion-testcase-id" value="RHEL6-47466"/>
                 </properties>

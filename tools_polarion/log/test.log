@@ -372,3 +372,13 @@
 2017-03-14 16:50:56,875 - xunit_to_polarion.py - INFO - Updating ./RC
 2017-03-14 16:50:57,180 - xunit_to_polarion.py - INFO - Post ./RC
 2017-03-14 16:58:07,799 - xunit_to_polarion.py - INFO - Ending time: Tue Mar 14 16:58:07 2017
+2017-03-16 14:44:06,681 - worksheet - INFO - authorize
+2017-03-16 14:44:06,682 - worksheet - INFO - open_doc
+2017-03-16 14:45:59,408 - xunit_to_polarion.py - INFO - Start time: Thu Mar 16 14:45:59 2017
+2017-03-16 14:46:18,257 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-16 14:46:18,262 - xunit_to_polarion.py - INFO - get_cases_ids
+2017-03-16 14:52:19,402 - xunit_to_polarion.py - INFO - get_cases_results_and_comments
+2017-03-16 14:52:19,418 - xunit_to_polarion.py - INFO - rm -rf ./RC
+2017-03-16 14:52:19,419 - xunit_to_polarion.py - INFO - Updating ./RC
+2017-03-16 14:52:19,596 - xunit_to_polarion.py - INFO - Post ./RC
+2017-03-16 14:59:10,928 - xunit_to_polarion.py - INFO - Ending time: Thu Mar 16 14:59:10 2017

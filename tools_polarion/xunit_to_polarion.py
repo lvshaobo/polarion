@@ -48,15 +48,15 @@ def usage():
     msg = """
 Usage([]表示该参数为可选):
     从googlesheet导入：
-    xunit_to_polarion.py -u <user> [--password=<kerberos password>] -d <doc_name> -s <sheet name> -p <polarion project> -i <planned in> -t <title prefix> [-n]
+    python xunit_to_polarion.py -u <user> [--password=<kerberos password>] -d <doc_name> -s <sheet name> -p <polarion project> -i <planned in> -t <title prefix> [-n]
 
     从csv文件导入：
-    xnuit_to_polarion.py -u <user> [--password=<kerberos password>] -f <file_name > -p <polarion project> -i <planned in> [-n]
+    python xnuit_to_polarion.py -u <user> [--password=<kerberos password>] -f <file_name > -p <polarion project> -i <planned in> [-n]
 
     样例：
-    xunit_to_polarion.py -u shalv --password=KerberosPassword -d RHEL-6.8-report -s RC -p RHEL6 -i 6_8_sn -t KN-RUN-RHEL-68-RC
+    python xunit_to_polarion.py -u shalv --password=KerberosPassword -d RHEL-6.8-report -s RC -p RHEL6 -i 6_8_sn -t KN-RUN-RHEL-68-RC
 
-    xunit_to_polarion.py -u shalv --password=KerberosPassword -f fail.csv -p RHEL6 -i 6_8_sn
+    python xunit_to_polarion.py -u shalv --password=KerberosPassword -f fail.csv -p RHEL6 -i 6_8_sn
     """
     print(msg)
 
@@ -131,7 +131,6 @@ def main(argv):
             exit(-1)
         if "password" not in locals():
             password = authentication()
-            print(password)
             if password is None:
                 print(red("Configuration File of Pylarion Can\'t Be Found, Please Input Your Kerberos Password"))
                 password = raw_input()
@@ -187,20 +186,3 @@ def main(argv):
 
 if __name__ == '__main__':
     main(sys.argv)
-
-"""
-dryrun = False
-
-doc = 'SN2'
-sheet = 'Snapshot2'
-
-case_title_prefix = 'KN-TC New-Test case Pylarion'
-run_id_prefix = 'Test_KN-RUN-RHEL-69-Snap2'
-
-document_name = 'KernelNetworkQE/KN-Pylarion'
-project = 'RHEL6'
-
-run_xml_path = './testruns'
-login = 'shalv'
-run_plannedin = '6_9_Snap_2'
-"""

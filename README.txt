@@ -11,8 +11,9 @@ This tool is based on pylarion and xunit importer, the following operations are 
 1. installation <Please see Installation as shown below>
 2. configure ~/.pylarion <Please see Configuration as shown below>
 3. $ cd tools_polarion
-4. $ python gen_report_google.py ~~~ 
-5. $ python xunit_to_polarion.py ~~~
+4. $ python gen_report .py [-a] -d <doc name > -s <sheet name > [-c <columnX =valueX , columnY =valueY, ... >] -- <options for bkr job -list >
+5. $ python xunit_to_polarion .py -u <user> [--password=<kerberos password>] -d <doc_name > -s <sheet name > -p <polarion project > -i <plannedin > -t <title prefix > [-n]
+(参考Googlesheet-Polarion 工具说明.docx)
 
 <Please execute "python gen_report_google.py (or xunit_to_polarion.py) -h" to get more detailed usage>
 
@@ -24,7 +25,6 @@ This tool is based on pylarion and xunit importer, the following operations are 
 
 1. Check and install <python-pip>, <gspread> and <oauth2client>
 2. Check and install pylarion
-3. # Replace
 
 =========== Configuration ==========
 
