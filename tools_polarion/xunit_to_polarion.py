@@ -160,7 +160,15 @@ def main(argv):
         logger.info('get_cases_ids')
         print(blue('get_cases_ids'))
         cases_ids = get_cases_ids(cases, case_title_prefix, document, project, dryrun)
-
+        
+        if dryrun:
+            for index, (case, case_id) in enumerate(zip(cases, cases_ids)):
+                print('the %s-th case: %s' % (index, case))
+                print('the %s-th case_id: %s' % (index, case_id))
+            logger.info('Ending time: %s' % time.ctime())
+            print(blue('Ending time: %s' % time.ctime()))
+            return None
+        
         logger.info('get_cases_results_and_comments')
         print(blue('get_cases_results_and_comments'))
         cases_results = get_cases_results(cases)

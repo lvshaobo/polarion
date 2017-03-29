@@ -41,6 +41,7 @@ xml_testcase_failed = """        <testcase classname="TestClass" name="test_name
 
 
 def short_model(model):
+    """simplify the TestRun's id """
     tmp = re.split('[-_]', model)
     ans = ""
     # print(tmp)
@@ -56,13 +57,14 @@ def short_model(model):
 
 def gen_run_id_for_case(case_name, driver, model):
     """
+    generate TestRun'id by case's information
     :param case_name:
     :param driver:
     :param model:
-    :return:
+    :return TestRun's id:
     """
     #############################
-    #######可能需要手动维护########
+    ###### search key word ######
     #############################
     if "sriov" in case_name:
         componet = "_SRIOV"
@@ -105,6 +107,7 @@ def gen_runs_ids_for_cases(cases, prefix):
 
 
 def filter_by_role(run_ids, case_ids, case_results, case_comments):
+    """if server or client failed, we think the result will be failed"""
     run_ids_dict = {}
 
     for run_id, case_id, case_result, case_comment in zip(run_ids, case_ids, case_results, case_comments):
@@ -120,7 +123,7 @@ def filter_by_role(run_ids, case_ids, case_results, case_comments):
 
 
 def post_runs_filter_by_role(run_ids, case_ids, case_results, case_comments, run_path, project, login, run_plannedin, dryrun):
-    """post testrun depending on role"""
+    """post testrun depending on role, if any Server or client failed, we think the result will be failed """
     run_case_dict = filter_by_role(run_ids, case_ids, case_results, case_comments)
     for (run_id, case_dict) in run_case_dict.items():
         with open("{}/{}.xml".format(run_path, run_id), 'a') as tr:
@@ -137,7 +140,7 @@ def post_runs_filter_by_role(run_ids, case_ids, case_results, case_comments, run
 
 
 def post_runs(run_ids, case_ids, case_results, case_comments, run_path, project, login, run_plannedin, dryrun):
-    """post TestRun to Polarion"""
+    """posting function which doesn't consider the role of case, compared with post_runs_filter_by_role """
     for index, (case_id, run_id, result, comment) in enumerate(zip(case_ids, run_ids, case_results, case_comments)):
         if "%s.xml" % run_id in os.listdir(run_path):
             tr = open("{}/{}.xml".format(run_path, run_id), 'a')

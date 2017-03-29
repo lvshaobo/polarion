@@ -382,3 +382,8 @@
 2017-03-16 14:52:19,419 - xunit_to_polarion.py - INFO - Updating ./RC
 2017-03-16 14:52:19,596 - xunit_to_polarion.py - INFO - Post ./RC
 2017-03-16 14:59:10,928 - xunit_to_polarion.py - INFO - Ending time: Thu Mar 16 14:59:10 2017
+2017-03-17 10:04:24,855 - worksheet - INFO - authorize
+2017-03-17 10:04:24,855 - worksheet - INFO - open_doc
+2017-03-17 10:05:05,247 - xunit_to_polarion.py - INFO - Start time: Fri Mar 17 10:05:05 2017
+2017-03-17 10:05:09,829 - xunit_to_polarion.py - INFO - filter_useless_cases
+2017-03-17 10:05:09,835 - xunit_to_polarion.py - INFO - get_cases_ids

@@ -114,6 +114,7 @@ def get_cases_ids(cases, case_title_prefix, document, project, dryrun):
         # print('The %s-th case' % str(i + 2))
         if x_tuple not in dic_:
             dic_[x_tuple] = get_case_id(case_title_prefix, x[_case], x[_topo], document, project, dryrun)
+	    cases_ids[i] = dic_[x_tuple]
         cases_ids[i] = dic_[x_tuple]
     return cases_ids
 
